@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+       <bean id="frog" class="entity.Frog">
+
+              <property name="name" value="Johny"/>
+              <property name="speed" value="54"/>
+       </bean>
+
+       <bean id="deviceService" class="service.DeviceService"/>
+       <bean id="ownerService" class="service.OwnerService"/>
+</beans>
