@@ -24,4 +24,6 @@ public interface OwnerRepository extends MongoRepository<Owner, Integer> {
     List<Owner> findFirst3ByDevices_PriceLessThan(int price);
 
 
+
+
 }
