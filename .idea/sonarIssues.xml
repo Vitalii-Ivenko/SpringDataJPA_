@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="/Mongo Console">
           <value>
             <set />
@@ -48,12 +53,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$APPLICATION_CONFIG_DIR$/trp/cell">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../SpringDataJPA/src/main/resources/application-config.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.gitignore">
           <value>
             <set />
           </value>
@@ -104,6 +119,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/jpa/repository/OwnerRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/jpa/repository/SpringDataOwnerRepository.java">
           <value>
             <set />
           </value>
