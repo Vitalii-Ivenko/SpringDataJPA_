@@ -199,6 +199,8 @@ public class SpringDataMongoTest {
         );
 
 
+
+
 //        Slice<Owner> slice = ownerRepository.findByDevices_PriceLessThan(1000, page1);
 //        Assert.assertEquals(slice.getContent().size(),3);
     }
