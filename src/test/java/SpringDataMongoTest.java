@@ -197,6 +197,8 @@ public class SpringDataMongoTest {
         final PageRequest page1 = new PageRequest(
                 0, 3, Sort.Direction.ASC, "firstName"
         );
+
+
 //        Slice<Owner> slice = ownerRepository.findByDevices_PriceLessThan(1000, page1);
 //        Assert.assertEquals(slice.getContent().size(),3);
     }
