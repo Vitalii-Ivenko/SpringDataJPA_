@@ -19,7 +19,6 @@ public interface OwnerRepository extends MongoRepository<Owner, Integer> {
 
     List<Owner> findByDevices_NameLike(String name);
 
-
     Slice<Owner> findByDevices_PriceLessThan(int price, Pageable pageable);
 
     List<Owner> findFirst3ByDevices_PriceLessThan(int price);
