@@ -22,4 +22,6 @@ public interface OwnerRepository extends MongoRepository<Owner, Integer> {
     Slice<Owner> findByDevices_PriceLessThan(int price, Pageable pageable);
 
     List<Owner> findFirst3ByDevices_PriceLessThan(int price);
+
+
 }
