@@ -17,6 +17,7 @@ public interface OwnerRepository extends MongoRepository<Owner, Integer> {
 
     List<Owner> findByFirstNameEndingWithOrderByAgeAsc(String s);
 
+
     List<Owner> findByDevices_NameLike(String name);
 
     Slice<Owner> findByDevices_PriceLessThan(int price, Pageable pageable);
