@@ -41,7 +41,5 @@ public class App {
 ////        Owner o2 = ownerService.deleteOneDeviceByName("John");
 
 //        ownerService.deleteOwnerByName("John");
-        LOG.info("sssssssss");
-
     }
 }
